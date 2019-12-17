@@ -1,0 +1,35 @@
+## tagger training invoked at Sun Dec 15 15:27:43 EST 2019 with arguments:
+                   model = italian.tagger
+                    arch = left3words,naacl2003unknowns,allwordshapes(-1,1)
+            wordFunction = 
+               trainFile = format=TSV,wordColumn=1,tagColumn=3,data/formatted/it_isdt-ud.train
+         closedClassTags = ADP AUX CCONJ DET NUM PART PRON SCONJ
+ closedClassTagThreshold = 40
+ curWordMinFeatureThresh = 2
+                   debug = true
+             debugPrefix = 
+            tagSeparator = _
+                encoding = utf-8
+              iterations = 100
+                    lang = 
+    learnClosedClassTags = false
+        minFeatureThresh = 2
+           openClassTags = 
+rareWordMinFeatureThresh = 10
+          rareWordThresh = 5
+                  search = qn
+                    sgml = false
+            sigmaSquared = 0.0
+                   regL1 = 0.75
+               tagInside = 
+                tokenize = true
+        tokenizerFactory = 
+        tokenizerOptions = 
+                 verbose = false
+          verboseResults = true
+    veryCommonWordThresh = 250
+                xmlInput = null
+              outputFile = 
+            outputFormat = slashTags
+     outputFormatOptions = 
+                nthreads = 16
